@@ -1,0 +1,22 @@
+body{
+    margin: 2em 5em;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.page-tagline{
+    text-align: center;
+    color: #444;
+}
+
+.tag-short-desc{
+    color: #444;
+}
+
+.tag-doc{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
