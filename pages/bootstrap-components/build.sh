@@ -14,5 +14,8 @@ render () {
 
 render alerts Alerts alerts
 render badge Badges badge
+render breadcrumb Breadcrumb breadcrumb
+render buttons Buttons buttons
+render button-group "Button Group" button-group
 
 
