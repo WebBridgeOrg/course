@@ -17,21 +17,21 @@
 
 #### Excercies
 
--[ ] Change the title of page in the black header bar
+- [ ] Change the title of page in the black header bar
 
-![](assets/title-activity.png)
+  ![](assets/title-activity.png)
 
--[ ] Add a third link
+- [ ] Add a third link
 
-![](assets/third-link-activity.png)
+  ![](assets/third-link-activity.png)
 
--[ ] Change the images, so each feature has a different image (`images/map.jpg`, `images/mountain.png`, `images/skyscraper`)
+- [ ] Change the images, so each feature has a different image (`images/map.jpg`, `images/mountain.png`, `images/skyscraper`)
 
-![](assets/images-activity.png)
+  ![](assets/images-activity.png)
 
-There are three images in the files sidebar 
+  There are three images in the files sidebar 
 
-![](assets/file-explorer.png)
+  ![](assets/file-explorer.png)
 
 
 > Bonus: upload your own picture 
