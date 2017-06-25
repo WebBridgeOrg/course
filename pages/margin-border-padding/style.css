@@ -1,0 +1,59 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+/* We use the wrapper to paint the margin with a background color */
+.wrapper{
+  border: 1px solid  #1C304A;
+  background-color: #1C304A;
+}
+.container{
+  margin: 1em;
+  padding: 1em;
+  background-color: #046B99;
+  border: 1em inset #B3EFFF;
+}
+
+.content{
+  background-color: white
+}
+
+.margin-legend, .border-legend, .padding-legend{
+  padding: 0.5em
+}
+
+.margin-legend{
+  background-color: #1C304A;
+  color: white;
+}
+
+.border-legend{
+  background-color: #B3EFFF;
+  color: #111;
+}
+
+.padding-legend{
+  background-color: #046B99;
+  color: white;
+}
+
+.border-example{
+  margin: 1em;
+  padding: 1em;
+  color: #444;
+  border-width: 0.3em;
+}
