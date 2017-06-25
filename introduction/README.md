@@ -1,8 +1,6 @@
 # Introduction
 
-## 
-
-### Getting started
+## Getting started
 
 - Open the [project](https://thimble.mozilla.org/en/projects/291425/remix) and select the `index.html` file in the editor to get started
 - The code of the page is displayed on the left side of the editor on the right side you can see the result.
@@ -15,7 +13,7 @@
   ![](assets/page-selector.png)
 
 
-#### Excercies
+### Excercies
 
 - [ ] Change the title of page in the black header bar
 
