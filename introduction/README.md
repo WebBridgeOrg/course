@@ -34,4 +34,7 @@
   ![](assets/file-explorer.png)
 
 
-> Bonus: upload your own picture 
+
+  > Bonus: upload your own picture
+   
+- [ ] 
