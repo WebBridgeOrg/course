@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML Tag Reference</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>HTML Tag Reference</h1>
+        <p class="page-tagline">Reference of most used HTML tags</p>
+
+        <ul>
+            <li>Title:
+                <a href="#h1">h1</a>,
+                <a href="#h2">h2</a>
+            </li>
+
+            <li>Text:
+                <a href="#a">link: a</a>,
+                <a href="#strong">strong</a>,
+                <a href="#em">em</a>phasis
+            </li>
+
+            <li>Image: <a href="#img">img</a></li>
+
+            <li>Containers:
+                <a href="#p">p</a>aragraph,
+                <a href="#span">inline: span</a>,
+                <a href="#div">block: div</a>
+            </li>
+
+            <li>Lists:
+                <a href="#ul">unordered: ul</a>,
+                <a href="#ol">ordered: ol</a>
+            </li>
+        </ul>
+
+        <div class="tag-doc">
+            <h2><a name="h1">h1</a></h2>
+
+            <p class="tag-short-desc">
+            Section <strong>H</strong>eading Level <strong>1</strong>
+            </p>
+            <p class="tag-desc">The title of this page is an h1 tag</p>
+
+            <h3>Code</h3>
+            <pre>
+            &lt;h1&gt;HTML Tag Reference&lt;/h1&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <h1>HTML Tag Reference</h1>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="h2">h2</a></h2>
+
+            <p class="tag-short-desc">
+            Section <strong>H</strong>eading Level <strong>1</strong>, you can go until level 6 (h3, h4, h5, h6)
+            </p>
+            <p class="tag-desc">The title of this section is an h2 tag</p>
+
+            <h3>Code</h3>
+            <pre>
+            &lt;h2&gt;h2&lt;/h2&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <h2>h2</h2>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="p">p</a></h2>
+
+            <p class="tag-short-desc"><strong>P</strong>aragraph of text</p>
+            <p class="tag-desc">This line and the one before are paragraphs</p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;p&gt;Paragraph of text&lt;/p&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <p>Paragraph of text</p>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="img">img</a></h2>
+
+            <p class="tag-short-desc"><strong>Im</strong>a<strong>g</strong>e</p>
+            <p class="tag-desc">An image displaying the WebBridge logo, an alternative text saying "Web Bridge Logo" and a width of 400 pixels:</p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;img src="image.png" alt="Web Bridge Logo" width=400&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <img src="image.png" alt="Web Bridge Logo" width=400>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="a">a</a></h2>
+
+            <p class="tag-short-desc">Link (<strong>a</strong>nchor)</p>
+            <p class="tag-desc">Text that when clicked navigates to the provided web address</p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;a href="https://webbridgeorg.github.io/"&gt;Web Bridge Website&lt;/a&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <a href="https://webbridgeorg.github.io/">Web Bridge Website</a>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="ul">ul</a></h2>
+
+            <p class="tag-short-desc"><strong>U</strong>nordered <strong>L</strong>ist</p>
+            <p class="tag-desc">
+            The ul tag wraps cero or more <em>&lt;li&gt;</em> tags
+            (<strong>L</strong>ist <strong>I</strong>tem) and shows an
+            unordered list, this means, a list that is not numerated,
+            the items are presented in the order they appear in the HTML document
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;ul&gt;
+               &lt;li&gt;HTML: Hypertext Markup Language&lt;/li&gt;
+               &lt;li&gt;CSS: Cascade Style Sheet&lt;/li&gt;
+               &lt;li&gt;JS: Javascript&lt;/li&gt;
+           &lt;/ul&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <ul>
+                <li>HTML: Hypertext Markup Language</li>
+                <li>CSS: Cascade Style Sheet</li>
+                <li>JS: Javascript</li>
+            </ul>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="ol">ol</a></h2>
+
+            <p class="tag-short-desc">
+            <strong>O</strong>rdered <strong>L</strong>ist
+            </p>
+            <p class="tag-desc">
+            The ol tag wraps cero or more <em>&lt;li&gt;</em> tags
+            (<strong>L</strong>ist <strong>I</strong>tem) and
+            shows an ordered list, this means, a list that is numerated
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;ol&gt;
+               &lt;li&gt;HTML: Hypertext Markup Language&lt;/li&gt;
+               &lt;li&gt;CSS: Cascade Style Sheet&lt;/li&gt;
+               &lt;li&gt;JS: Javascript&lt;/li&gt;
+           &lt;/ol&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <ol>
+                <li>HTML: Hypertext Markup Language</li>
+                <li>CSS: Cascade Style Sheet</li>
+                <li>JS: Javascript</li>
+            </ol>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="strong">strong</a></h2>
+
+            <p class="tag-short-desc"><strong>Strong</strong> Text</p>
+            <p class="tag-desc">
+            Usually presented as bold text, but not necesarilly,
+            it can be styled with CSS to display in any other way
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;strong&gt;This is important&lt;/strong&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <strong>This is important</strong>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="em">em</a></h2>
+            <p class="tag-short-desc"><strong>Em</strong>phasized Text</p>
+            <p class="tag-desc">
+            Usually presented as italic text, but not necesarilly,
+            it can be styled with CSS to display in any other way
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;em&gt;This requires emphasis&lt;/em&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <em>This requires emphasis</em>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="span">span</a></h2>
+
+            <p class="tag-short-desc">Generic inline container</p>
+            <p class="tag-desc">
+            Used to group elements for styling purposes,
+            or because they share attribute values.
+            </p>
+            <p class="tag-desc">
+            It should be used only when no other semantic element is appropriate
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;span class="grouped-things"&gt;Line &lt;em&gt;with&lt;/em&gt; different &lt;strong&gt;things&lt;/strong&gt;&lt;/span&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <span class="grouped-things">
+                Line <em>with</em> different <strong>things</strong>
+            </span>
+        </div>
+
+        <div class="tag-doc">
+            <h2><a name="div">div</a></h2>
+
+            <p class="tag-short-desc">Generic block container</p>
+            <p class="tag-desc">
+            Used to group elements for styling purposes,
+            or because they share attribute values.
+            </p>
+            <p class="tag-desc">
+            It should be used only when no other semantic element is appropriate
+            </p>
+
+            <h3>Code</h3>
+            <pre>
+           &lt;div class="tag-doc"&gt;
+               &lt;h2&gt;div&lt;/h2&gt;
+               &lt;p class="tag-short-desc"&gt;Generic block container&lt;/p&gt;
+               &lt;p class="tag-desc"&gt;Used to group elements for styling purposes,
+               or because they share attribute values.&lt;/p&gt;
+               &lt;p class="tag-desc"&gt;It should be used only when no other semantic
+               element is appropriate&lt;/p&gt;
+
+               &lt;h3&gt;Code&lt;/h3&gt;
+               &lt;pre&gt;&lt;!-- inception --&gt;&lt;/pre&gt;
+
+               &lt;h3&gt;Result&lt;/h3&gt;
+               &lt;p&gt;This whole block is a wrapped in a div&lt;/p&gt;
+           &lt;/div&gt;
+            </pre>
+
+            <h3>Result</h3>
+            <p>This whole block is a wrapped in a div</p>
+        </div>
+
+    </body>
+</html>
