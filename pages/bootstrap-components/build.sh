@@ -13,5 +13,6 @@ render () {
 }
 
 render alerts Alerts alerts
+render badge Badges badge
 
 
