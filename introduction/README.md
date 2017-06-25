@@ -34,7 +34,8 @@
   ![](assets/file-explorer.png)
 
 
-
   > Bonus: upload your own picture
    
-- [ ] 
+- [ ] Duplicate the last section with image and text
+  
+  ![](assets/duplicate-activity.png)

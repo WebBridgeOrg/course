@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS: Marging, Border and Padding</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>CSS: Marging, Border and Padding</h1>
+    <!-- We use the wrapper to paint the margin with a background color -->
+    <div class="wrapper">
+      <div class="container">
+        <span class="content">Content</span>
+      </div>
+    </div>
+    
+    <p class="margin-legend">Margin</p>
+    <p class="border-legend">Border</p>
+    <p class="padding-legend">Padding</p>
+
+    <div class="section">
+      <h2>Margin</h2>
+      
+      <p>Usage</p>
+      <pre>
+       /* margin: $all-sizes; */
+       margin: 1em;
+      </pre>
+      
+      <p>Same as</p>
+      
+      <pre>
+       /* margin: $top-bottom $left-right; */
+       margin: 1em 1em;
+      </pre>
+      
+      <p>Same as</p>
+
+      <pre>
+       /* margin: $top $right $bottom $left; */
+       margin: 1em 1em 1em 1em;
+      </pre>
+      
+      <p>Same as</p>
+
+      <pre>
+       margin-top: 1em;
+       margin-right: 1em;
+       margin-bottom: 1em;
+       margin-left: 1em;
+      </pre>
+    </div>
+    
+    <div class="section">
+      <h2>Padding</h2>
+
+      <p>Usage</p>
+      <pre>
+       /* padding: $all-sizes; */
+       padding: 1em;
+      </pre>
+
+      <p>Same as</p>
+
+      <pre>
+       /* padding: $top-bottom $left-right; */
+       padding: 1em 1em;
+      </pre>
+
+      <p>Same as</p>
+
+      <pre>
+       /* padding: $top $right $bottom $left; */
+       padding: 1em 1em 1em 1em;
+      </pre>
+
+      <p>Same as</p>
+
+      <pre>
+       padding-top: 1em;
+       padding-right: 1em;
+       padding-bottom: 1em;
+       padding-left: 1em;
+      </pre>
+    </div>
+
+    <div class="section">
+      <h2>Border</h2>
+
+      <p>Usage</p>
+      <pre>
+       /* border: $all-sizes $style $color; */
+       border: 1em solid #B3EFFF;
+      </pre>
+      
+      <p>Same as</p>
+      <pre>
+       /* border-width: $all-sizes; */
+       border-width: 1em;
+       
+       border-style: solid;
+       border-color: #B3EFFF;
+      </pre>
+      
+      <p>Same as</p>
+      <pre>
+       /* border-width: $top-bottom $right-left; */
+       border-width: 1em 1em;
+       
+       border-style: solid;
+       border-color: #B3EFFF;
+      </pre>
+
+      <p>Same as</p>
+      <pre>
+       border-top-width: 1em;
+       border-right-width: 1em;
+       border-bottom-width: 1em;
+       border-left-width: 1em;
+       
+       border-style: solid;
+       border-color: #B3EFFF;
+      </pre>
+    </div>
+    
+    <div class="section">
+      <h2>Border Styles</h2>
+      
+      <div class="border-example" 
+           style="border-style: none;">
+        border-style: none;
+      </div>
+      <div class="border-example" 
+           style="border-style: hidden;">
+        border-style: hidden;
+      </div>
+      <div class="border-example"
+           style="border-style: dotted;">
+        border-style: dotted;
+      </div>
+      <div class="border-example" 
+           style="border-style: dashed;">
+        border-style: dashed;
+      </div>
+      <div class="border-example" 
+           style="border-style: solid;">
+        border-style: solid;
+      </div>
+      <div class="border-example" 
+           style="border-style: double;">
+        border-style: double;
+      </div>
+      <div class="border-example" 
+           style="border-style: groove;">
+        border-style: groove;
+      </div>
+      <div class="border-example" 
+           style="border-style: ridge;">
+        border-style: ridge;
+      </div>
+      <div class="border-example" 
+           style="border-style: inset;">
+        border-style: inset;
+      </div>
+      <div class="border-example" 
+           style="border-style: outset;">
+        border-style: outset;
+      </div>
+    </div>
+
+  </body>
+</html>

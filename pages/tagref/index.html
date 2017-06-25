@@ -1,13 +1,56 @@
 <!DOCTYPE html>
+<!-- This is a comment, it doesn't display on the web page, we will use it to
+    explain the markup.
+
+    The DOCTTYPE thing above tells the browser that this is an HTML5 document,
+    so it can display it correctly. HTML5 is the latest version of HTML, you
+    should always use this doctype for new documents.
+
+    It has to be the first line, that's why I'm explaining it below, from
+    now on I will explain each tag above its usage.
+-->
+
+<!-- The html tag is the root of an HTML document, inside of it there are
+    two tags: head and body. We can specify the language of the document with
+    the lang="en" attribute -->
 <html lang="en">
+    <!-- The head tag contains information about the document, the content
+        in the head is not displayed -->
     <head>
+        <!-- The meta tag is used to specify information about the document
+            called metadata (data about the data).
+
+            Here we specify the character set of the document, this means, how
+            the browser should interpret international characters like umlauts
+            and tildes, utf-8 is the standard for HTML documents, just add this
+            line in every document. -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The title tag specifies the title of the page as displayed in the
+            title bar of the browser when selected and on the tab -->
         <title>HTML Tag Reference</title>
+
+        <!-- The viewport metadata specifies how the page should display on
+        mobile devices, this is to avoid the content being too small on them. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The link tag allows to load or link to other resources that are
+            relevant to the page, in this case we are loading two CSS files
+            that specify how the page should be styled, this one is the
+            CSS for bootstrap, which saves us from lot of manual styling.
+
+            We are loading this file from another page that's why it starts
+            with two slashed and the page's address -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+        <!-- We load our own CSS file for some extra styling from the this
+            page, that's why it doesn't start with two slashes -->
         <link rel="stylesheet" href="style.css">
     </head>
 
+    <!-- The body tag contains all the content of the page that will be
+        displayed, from here on the tags are documented in the page itself so
+        we won't describe them with comments -->
     <body>
         <h1>HTML Tag Reference</h1>
         <p class="page-tagline">Reference of most used HTML tags</p>
@@ -106,7 +149,7 @@
             <h2><a name="a">a</a></h2>
 
             <p class="tag-short-desc">Link (<strong>a</strong>nchor)</p>
-            <p class="tag-desc">Text that when clicked navigates to the provided web address</p>
+            <p class="tag-desc">Text that when clicked navigates to the specified location</p>
 
             <h3>Code</h3>
             <pre>
@@ -124,7 +167,7 @@
             <p class="tag-desc">
             The ul tag wraps cero or more <em>&lt;li&gt;</em> tags
             (<strong>L</strong>ist <strong>I</strong>tem) and shows an
-            unordered list, this means, a list that is not numerated,
+            unordered list, this means, a list that is not enumerated,
             the items are presented in the order they appear in the HTML document
             </p>
 
@@ -154,7 +197,7 @@
             <p class="tag-desc">
             The ol tag wraps cero or more <em>&lt;li&gt;</em> tags
             (<strong>L</strong>ist <strong>I</strong>tem) and
-            shows an ordered list, this means, a list that is numerated
+            shows an ordered list, this means, a list that is enumerated
             </p>
 
             <h3>Code</h3>
@@ -218,7 +261,7 @@
             or because they share attribute values.
             </p>
             <p class="tag-desc">
-            It should be used only when no other semantic element is appropriate
+            It should be used only when no other element is appropriate
             </p>
 
             <h3>Code</h3>
@@ -241,7 +284,7 @@
             or because they share attribute values.
             </p>
             <p class="tag-desc">
-            It should be used only when no other semantic element is appropriate
+            It should be used only when no other element is appropriate
             </p>
 
             <h3>Code</h3>
@@ -251,18 +294,16 @@
                &lt;p class="tag-short-desc"&gt;Generic block container&lt;/p&gt;
                &lt;p class="tag-desc"&gt;Used to group elements for styling purposes,
                or because they share attribute values.&lt;/p&gt;
-               &lt;p class="tag-desc"&gt;It should be used only when no other semantic
+               &lt;p class="tag-desc"&gt;It should be used only when no other 
                element is appropriate&lt;/p&gt;
 
                &lt;h3&gt;Code&lt;/h3&gt;
                &lt;pre&gt;&lt;!-- inception --&gt;&lt;/pre&gt;
 
-               &lt;h3&gt;Result&lt;/h3&gt;
                &lt;p&gt;This whole block is a wrapped in a div&lt;/p&gt;
            &lt;/div&gt;
             </pre>
 
-            <h3>Result</h3>
             <p>This whole block is a wrapped in a div</p>
         </div>
 
