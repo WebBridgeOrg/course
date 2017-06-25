@@ -1,6 +1,7 @@
-# Template
+# Landing Page Example
 
-[Online version](https://thimbleprojects.org/paulsonnentag/291425)
+Link to [online version](https://thimbleprojects.org/paulsonnentag/291425)
+
 
 ## Credit
 
