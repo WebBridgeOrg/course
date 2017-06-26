@@ -18,5 +18,7 @@ render breadcrumb Breadcrumb breadcrumb
 render buttons Buttons buttons
 render button-group "Button Group" button-group
 render card Cards card
+render forms Forms forms
+render input-group "Input Group" input-group
 
 
